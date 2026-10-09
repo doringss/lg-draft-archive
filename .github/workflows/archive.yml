@@ -1,0 +1,203 @@
+name: Archive build and deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/archive.yml"
+      - "source/**"
+      - "data/**"
+      - "assets/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: archive-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Separate data and build HTML
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          import shutil
+          from pathlib import Path
+
+          marker = "__LG_ARCHIVE_DATA_JSON__"
+          template_path = Path("source/template.html")
+          data_dir = Path("data")
+          entries_dir = data_dir / "entries"
+          stat_fields = (
+              "stats", "advanced",
+              "noStatsReason", "statsDateNote"
+          )
+
+          def write_json(path, value):
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_text(
+                  json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+                  encoding="utf-8"
+              )
+
+          def read_json(path):
+              return json.loads(path.read_text(encoding="utf-8"))
+
+          original_players = None
+
+          if not template_path.exists():
+              html = Path("index.html").read_text(encoding="utf-8")
+              matches = list(re.finditer(r"\bconst\s+DATA\s*=\s*", html))
+              if len(matches) != 1:
+                  raise ValueError("Expected one DATA declaration")
+
+              start = matches[0].end()
+              original, length = json.JSONDecoder().raw_decode(html[start:])
+              original_players = original["players"]
+              ids = [p["id"] for p in original_players]
+              if not ids or len(ids) != len(set(ids)):
+                  raise ValueError("Missing or duplicate player IDs")
+
+              template_path.parent.mkdir(parents=True, exist_ok=True)
+              template = html[:start] + marker + html[start + length:]
+              template_path.write_text(template, encoding="utf-8")
+
+              groups = {}
+              records = {}
+
+              for player in original_players:
+                  profile = dict(player)
+                  player_id = profile["id"]
+                  records[player_id] = {
+                      key: profile.pop(key)
+                      for key in stat_fields if key in profile
+                  }
+                  year = int(profile["year"])
+                  groups.setdefault(year, []).append(profile)
+
+              for year, players in sorted(groups.items()):
+                  write_json(entries_dir / f"{year}.json", players)
+
+              write_json(data_dir / "stats.json", records)
+              write_json(
+                  data_dir / "meta.json",
+                  {k: v for k, v in original.items() if k != "players"}
+              )
+              print(f"Migrated {len(original_players)} players")
+
+          template = template_path.read_text(encoding="utf-8")
+          if template.count(marker) != 1:
+              raise ValueError("Template data marker must occur once")
+
+          players = []
+          files = sorted(entries_dir.glob("*.json"))
+          if not files:
+              raise ValueError("No yearly player files")
+
+          for path in files:
+              year_players = read_json(path)
+              if not isinstance(year_players, list):
+                  raise ValueError(f"{path}: expected a list")
+              for player in year_players:
+                  if int(player["year"]) != int(path.stem):
+                      raise ValueError(f"{path}: incorrect entry year")
+              players.extend(year_players)
+
+          ids = [p["id"] for p in players]
+          if not ids or len(ids) != len(set(ids)):
+              raise ValueError("Missing or duplicate player IDs")
+
+          records = read_json(data_dir / "stats.json")
+          unknown = set(records) - set(ids)
+          if unknown:
+              raise ValueError(f"Stats reference unknown IDs: {unknown}")
+
+          for player in players:
+              if not player.get("name"):
+                  raise ValueError("Player name is missing")
+              record = records.get(player["id"], {})
+              if set(record) - set(stat_fields):
+                  raise ValueError("Unexpected field in stats.json")
+              player.update(record)
+
+          if original_players is not None:
+              before = {p["id"]: p for p in original_players}
+              after = {p["id"]: p for p in players}
+              if before != after:
+                  raise ValueError("Migration changed player data")
+
+          payload = read_json(data_dir / "meta.json")
+          payload["players"] = players
+          encoded = json.dumps(payload, ensure_ascii=False)
+          encoded = encoded.replace("<", "\\u003c")
+
+          output = template.replace(marker, encoded, 1)
+          Path("index.html").write_text(output, encoding="utf-8")
+
+          site = Path("_site")
+          site.mkdir(exist_ok=True)
+          (site / "index.html").write_text(output, encoding="utf-8")
+          (site / ".nojekyll").touch()
+          if Path("assets").exists():
+              shutil.copytree("assets", site / "assets", dirs_exist_ok=True)
+
+          print(f"Validated and built {len(players)} players")
+          PY
+
+      - name: Check JavaScript syntax
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          import subprocess
+          import tempfile
+          from pathlib import Path
+
+          html = Path("index.html").read_text(encoding="utf-8")
+          scripts = re.findall(r"<script>([\s\S]*?)</script>", html)
+          if not scripts:
+              raise ValueError("No application script found")
+          for script in scripts:
+              with tempfile.TemporaryDirectory() as directory:
+                  path = Path(directory) / "check.js"
+                  path.write_text(script, encoding="utf-8")
+                  subprocess.run(["node", "--check", str(path)], check=True)
+          PY
+
+      - name: Save generated files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add source data index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Separate archive data and rebuild site"
+            git push origin HEAD:main
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
