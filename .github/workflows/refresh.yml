@@ -1,0 +1,91 @@
+name: Refresh archive and KBO stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 매주 월요일 오전 6시 17분, 한국시간
+    - cron: "17 21 * * 0"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_archive.py"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: archive-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: python3 -m pip install requests beautifulsoup4 PyYAML
+
+      - name: Update profiles and collect KBO records
+        run: python3 scripts/update_archive.py
+
+      - name: Rebuild and validate using existing workflow
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import subprocess
+          from pathlib import Path
+          import yaml
+
+          workflow = yaml.safe_load(
+              Path(".github/workflows/archive.yml").read_text(
+                  encoding="utf-8"
+              )
+          )
+          required = [
+              "Separate data and build HTML",
+              "Check JavaScript syntax",
+          ]
+          steps = workflow["jobs"]["build"]["steps"]
+          for name in required:
+              matches = [s for s in steps if s.get("name") == name]
+              if len(matches) != 1:
+                  raise ValueError(f"Build step missing or ambiguous: {name}")
+              subprocess.run(
+                  ["bash", "-e", "-c", matches[0]["run"]],
+                  check=True,
+              )
+          PY
+
+      - name: Save changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add source data index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update archive profiles and available KBO records"
+            git push origin HEAD:main
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
