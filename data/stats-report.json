@@ -1,0 +1,675 @@
+{
+  "retrievedAt": "2026-10-10 05:41 KST",
+  "scope": "저장된 소속 기준 프로 소속 선수의 KBO 정규시즌 누적 기록",
+  "players": [
+    {
+      "id": "2011-draft1",
+      "name": "임찬규",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=61101",
+      "status": "updated"
+    },
+    {
+      "id": "2011-draft2",
+      "name": "이우찬",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=61145",
+      "status": "updated"
+    },
+    {
+      "id": "2011-draft7",
+      "name": "유강남",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=61102",
+      "status": "updated"
+    },
+    {
+      "id": "2013-draft1",
+      "name": "강승호",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=63123",
+      "status": "updated"
+    },
+    {
+      "id": "2013-draft2",
+      "name": "배재준",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=63145",
+      "status": "updated"
+    },
+    {
+      "id": "2014-draft1",
+      "name": "배정대",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=64166",
+      "status": "updated"
+    },
+    {
+      "id": "2014-draft2",
+      "name": "장준원",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=64115",
+      "status": "updated"
+    },
+    {
+      "id": "2014-draft3",
+      "name": "양석환",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=64153",
+      "status": "updated"
+    },
+    {
+      "id": "2014-draft5",
+      "name": "한석현",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=64101",
+      "status": "updated"
+    },
+    {
+      "id": "2015-2",
+      "name": "김재성",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=65132",
+      "status": "updated"
+    },
+    {
+      "id": "2015-5",
+      "name": "백승현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=65109",
+      "status": "updated"
+    },
+    {
+      "id": "2015-10",
+      "name": "이상규",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=65117",
+      "status": "updated"
+    },
+    {
+      "id": "2016-2",
+      "name": "김대현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=66145",
+      "status": "updated"
+    },
+    {
+      "id": "2016-4",
+      "name": "김주성",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=66162",
+      "status": "updated"
+    },
+    {
+      "id": "2016-5",
+      "name": "홍창기",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=66108",
+      "status": "updated"
+    },
+    {
+      "id": "2016-6",
+      "name": "김기연",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=66112",
+      "status": "updated"
+    },
+    {
+      "id": "2017-2",
+      "name": "고우석",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=67119",
+      "status": "updated"
+    },
+    {
+      "id": "2017-3",
+      "name": "손주영",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=67143",
+      "status": "updated"
+    },
+    {
+      "id": "2017-9",
+      "name": "오석주",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=67116",
+      "status": "updated"
+    },
+    {
+      "id": "2017-13",
+      "name": "전준호",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=67123",
+      "status": "no_records"
+    },
+    {
+      "id": "2018-2",
+      "name": "김영준",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=68130",
+      "status": "updated"
+    },
+    {
+      "id": "2018-3",
+      "name": "성동현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=68159",
+      "status": "updated"
+    },
+    {
+      "id": "2018-4",
+      "name": "이재원",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=68106",
+      "status": "updated"
+    },
+    {
+      "id": "2018-10",
+      "name": "송찬의",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=68110",
+      "status": "updated"
+    },
+    {
+      "id": "2018-13",
+      "name": "문성주",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=68119",
+      "status": "updated"
+    },
+    {
+      "id": "2019-2",
+      "name": "이정용",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=69134",
+      "status": "updated"
+    },
+    {
+      "id": "2019-3",
+      "name": "이상영",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=69168",
+      "status": "updated"
+    },
+    {
+      "id": "2019-4",
+      "name": "정우영",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=69159",
+      "status": "updated"
+    },
+    {
+      "id": "2019-5",
+      "name": "문보경",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=69102",
+      "status": "updated"
+    },
+    {
+      "id": "2019-7",
+      "name": "남호",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=69104",
+      "status": "updated"
+    },
+    {
+      "id": "2019-9",
+      "name": "구본혁",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=69100",
+      "status": "updated"
+    },
+    {
+      "id": "2019-10",
+      "name": "김성진",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=69105",
+      "status": "updated"
+    },
+    {
+      "id": "2019-11",
+      "name": "임준형",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=69113",
+      "status": "updated"
+    },
+    {
+      "id": "2019-12",
+      "name": "이지강",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=69108",
+      "status": "updated"
+    },
+    {
+      "id": "2020-2",
+      "name": "이민호",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=50126",
+      "status": "updated"
+    },
+    {
+      "id": "2020-3",
+      "name": "김윤식",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=50157",
+      "status": "updated"
+    },
+    {
+      "id": "2020-4",
+      "name": "이주형",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=50167",
+      "status": "updated"
+    },
+    {
+      "id": "2020-5",
+      "name": "손호영",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=50150",
+      "status": "updated"
+    },
+    {
+      "id": "2020-7",
+      "name": "유영찬",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=50106",
+      "status": "updated"
+    },
+    {
+      "id": "2020-9",
+      "name": "하현규",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=50107",
+      "status": "no_records"
+    },
+    {
+      "id": "2020-10",
+      "name": "함창건",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=50108",
+      "status": "updated"
+    },
+    {
+      "id": "2020-dev1",
+      "name": "김수인",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=50115",
+      "status": "updated"
+    },
+    {
+      "id": "2021-2",
+      "name": "강효종",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51143",
+      "status": "updated"
+    },
+    {
+      "id": "2021-3",
+      "name": "이영빈",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=51100",
+      "status": "updated"
+    },
+    {
+      "id": "2021-4",
+      "name": "김진수",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51154",
+      "status": "updated"
+    },
+    {
+      "id": "2021-5",
+      "name": "조건희",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51163",
+      "status": "updated"
+    },
+    {
+      "id": "2021-6",
+      "name": "이믿음",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51110",
+      "status": "updated"
+    },
+    {
+      "id": "2021-9",
+      "name": "김지용",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51104",
+      "status": "no_records"
+    },
+    {
+      "id": "2021-12",
+      "name": "송승기",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51111",
+      "status": "updated"
+    },
+    {
+      "id": "2022-2",
+      "name": "조원태",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=52149",
+      "status": "updated"
+    },
+    {
+      "id": "2022-3",
+      "name": "김주완",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=52140",
+      "status": "updated"
+    },
+    {
+      "id": "2022-5",
+      "name": "이주헌",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=52154",
+      "status": "updated"
+    },
+    {
+      "id": "2022-7",
+      "name": "허준혁",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=52119",
+      "status": "updated"
+    },
+    {
+      "id": "2022-9",
+      "name": "최원영",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=52103",
+      "status": "updated"
+    },
+    {
+      "id": "2022-10",
+      "name": "김성우",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=52105",
+      "status": "updated"
+    },
+    {
+      "id": "2022-11",
+      "name": "문정빈",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=52121",
+      "status": "updated"
+    },
+    {
+      "id": "2022-12",
+      "name": "양진혁",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=52123",
+      "status": "no_records"
+    },
+    {
+      "id": "2022-13",
+      "name": "엄태경",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=52124",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-3",
+      "name": "김범석",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53144",
+      "status": "updated"
+    },
+    {
+      "id": "2023-4",
+      "name": "김동규",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=53164",
+      "status": "updated"
+    },
+    {
+      "id": "2023-5",
+      "name": "박명근",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=53139",
+      "status": "updated"
+    },
+    {
+      "id": "2023-6",
+      "name": "이준서",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53160",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-7",
+      "name": "원상훈",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=53101",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-8",
+      "name": "임정균",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=53100",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-9",
+      "name": "권동혁",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53168",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-10",
+      "name": "허용주",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=53102",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-11",
+      "name": "송대현",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53105",
+      "status": "updated"
+    },
+    {
+      "id": "2023-13",
+      "name": "곽민호",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53104",
+      "status": "no_records"
+    },
+    {
+      "id": "2023-14",
+      "name": "강민균",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53103",
+      "status": "updated"
+    },
+    {
+      "id": "2024-4",
+      "name": "김현종",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54166",
+      "status": "updated"
+    },
+    {
+      "id": "2024-5",
+      "name": "손용준",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54156",
+      "status": "updated"
+    },
+    {
+      "id": "2024-6",
+      "name": "진우영",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=54148",
+      "status": "updated"
+    },
+    {
+      "id": "2024-7",
+      "name": "김대원",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54164",
+      "status": "updated"
+    },
+    {
+      "id": "2024-9",
+      "name": "정지헌",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=54149",
+      "status": "updated"
+    },
+    {
+      "id": "2024-10",
+      "name": "배강",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54116",
+      "status": "no_records"
+    },
+    {
+      "id": "2024-11",
+      "name": "김종우",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=54103",
+      "status": "no_records"
+    },
+    {
+      "id": "2024-12",
+      "name": "강석현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=54104",
+      "status": "no_records"
+    },
+    {
+      "id": "2024-13",
+      "name": "김도윤",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54107",
+      "status": "no_records"
+    },
+    {
+      "id": "2024-14",
+      "name": "심규빈",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54108",
+      "status": "no_records"
+    },
+    {
+      "id": "2024-dev0",
+      "name": "오승윤",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=54105",
+      "status": "no_records"
+    },
+    {
+      "id": "2024-dev2",
+      "name": "최명경",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=54112",
+      "status": "updated"
+    },
+    {
+      "id": "2025-3",
+      "name": "김영우",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55167",
+      "status": "updated"
+    },
+    {
+      "id": "2025-4",
+      "name": "추세현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55163",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-5",
+      "name": "이한림",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=55100",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-6",
+      "name": "이태훈",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=55165",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-7",
+      "name": "서영준",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=55160",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-8",
+      "name": "박관우",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=55164",
+      "status": "updated"
+    },
+    {
+      "id": "2025-9",
+      "name": "박시원",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55121",
+      "status": "updated"
+    },
+    {
+      "id": "2025-10",
+      "name": "김종운",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55122",
+      "status": "updated"
+    },
+    {
+      "id": "2025-11",
+      "name": "우정안",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=55111",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-12",
+      "name": "안이도",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55109",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-13",
+      "name": "고영웅",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55116",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-14",
+      "name": "성준서",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55118",
+      "status": "no_records"
+    },
+    {
+      "id": "2025-dev0",
+      "name": "김웅",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55129",
+      "status": "no_records"
+    },
+    {
+      "id": "devcheck-전경원(야구선수)",
+      "name": "전경원",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=68869",
+      "status": "updated"
+    },
+    {
+      "id": "2026-3",
+      "name": "양우진",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56165",
+      "status": "updated"
+    },
+    {
+      "id": "2026-4",
+      "name": "박준성",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56159",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-5",
+      "name": "우명현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56169",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-6",
+      "name": "권우준",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56149",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-7",
+      "name": "강민기",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=56102",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-9",
+      "name": "주정환",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=56107",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-10",
+      "name": "박현우",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=56108",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-11",
+      "name": "이지백",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=56111",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-12",
+      "name": "윤형민",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56113",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-13",
+      "name": "박성진",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56114",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-14",
+      "name": "김동현",
+      "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=56143",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-dev0",
+      "name": "박준기",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=56112",
+      "status": "no_records"
+    },
+    {
+      "id": "2026-extra-심기정",
+      "name": "심기정",
+      "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=56099",
+      "status": "no_records"
+    },
+    {
+      "id": "2027-dev-황윤재",
+      "name": "황윤재",
+      "source": "",
+      "status": "skipped",
+      "reason": "KBO 통산 주소 미확인"
+    },
+    {
+      "id": "2027-dev-임영기",
+      "name": "임영기",
+      "source": "",
+      "status": "skipped",
+      "reason": "KBO 통산 주소 미확인"
+    },
+    {
+      "id": "2027-dev-박정훈",
+      "name": "박정훈",
+      "source": "",
+      "status": "skipped",
+      "reason": "KBO 통산 주소 미확인"
+    }
+  ]
+}

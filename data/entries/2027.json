@@ -109,7 +109,7 @@
     "lgFirst": false,
     "firstVerified": true,
     "originalLG": false,
-    "rookieNote": "2026년 9월 21일 열린 2027 KBO 신인드래프트 지명. 프로 입단 전이므로 KBO 성적과 WAR는 아직 없습니다.",
+    "rookieNote": "현재 입단 보류 상태입니다.",
     "position": "내야수",
     "birthday": "",
     "body": "",
@@ -121,11 +121,13 @@
     "impact": null,
     "events": [],
     "currentLG": false,
-    "teamLabel": "LG 지명 · 입단 전",
+    "teamLabel": "LG 지명 · 입단 보류",
     "serving": false,
-    "cellLabel": "상동고",
+    "cellLabel": "상동고 · 입단 보류",
     "originalNote": "원본 2512: LG 외 소속 / 출전 표시 없음",
-    "photo": null
+    "photo": null,
+    "entryPending": true,
+    "sourceNote": "입단 보류: 자료 관리자 제공 정보. 공개 발표 원문은 추가 확인이 필요합니다."
   },
   {
     "id": "2027-5",
@@ -350,5 +352,107 @@
     "cellLabel": "광주동성고",
     "originalNote": "원본 2512: LG 외 소속 / 출전 표시 없음",
     "photo": null
+  },
+  {
+    "id": "2027-dev-황윤재",
+    "name": "황윤재",
+    "year": 2027,
+    "development": true,
+    "roundNum": 12,
+    "roundLabel": "신고·육성",
+    "school": "경민대",
+    "cellLabel": "경민대",
+    "currentLG": true,
+    "teamLabel": "LG 트윈스",
+    "lgFirst": false,
+    "firstVerified": false,
+    "serving": false,
+    "photo": null,
+    "position": "",
+    "birthday": "",
+    "hand": "",
+    "body": "",
+    "military": "",
+    "draft": "2027년 LG 육성선수 입단",
+    "entryNote": "2027년 육성 입단 명단",
+    "rookieNote": "2026년 9월 28일 육성선수 계약. 이 자료에서는 2027년 입단 명단으로 분류합니다.",
+    "career": "LG 트윈스 육성선수 계약",
+    "draftSource": "https://www.kyungmin.ac.kr/homepage/page.do?m=V&menu=137&no=2026-01797&page=1",
+    "sourceNote": "계약 및 출신 대학: 경민대 2026.09.29 발표. 추가 프로필과 KBO 선수 ID는 확인 후 보완합니다.",
+    "events": [
+      {
+        "date": "2026.09.28",
+        "text": "LG 트윈스 육성선수 계약.",
+        "url": "https://www.kyungmin.ac.kr/homepage/page.do?m=V&menu=137&no=2026-01797&page=1"
+      }
+    ]
+  },
+  {
+    "id": "2027-dev-임영기",
+    "name": "임영기",
+    "year": 2027,
+    "development": true,
+    "roundNum": 12,
+    "roundLabel": "신고·육성",
+    "school": "한양대",
+    "cellLabel": "한양대",
+    "currentLG": true,
+    "teamLabel": "LG 트윈스",
+    "lgFirst": false,
+    "firstVerified": false,
+    "serving": false,
+    "photo": null,
+    "position": "",
+    "birthday": "",
+    "hand": "",
+    "body": "",
+    "military": "",
+    "draft": "2027년 LG 육성선수 입단",
+    "entryNote": "2027년 육성 입단 명단",
+    "rookieNote": "2026년 9월 28일 육성선수 계약. 이 자료에서는 2027년 입단 명단으로 분류합니다.",
+    "career": "LG 트윈스 육성선수 계약",
+    "draftSource": "https://www.kyungmin.ac.kr/homepage/page.do?m=V&menu=137&no=2026-01797&page=1",
+    "sourceNote": "계약 및 출신 대학: 경민대 2026.09.29 발표. 추가 프로필과 KBO 선수 ID는 확인 후 보완합니다.",
+    "events": [
+      {
+        "date": "2026.09.28",
+        "text": "LG 트윈스 육성선수 계약.",
+        "url": "https://www.kyungmin.ac.kr/homepage/page.do?m=V&menu=137&no=2026-01797&page=1"
+      }
+    ]
+  },
+  {
+    "id": "2027-dev-박정훈",
+    "name": "박정훈",
+    "year": 2027,
+    "development": true,
+    "roundNum": 12,
+    "roundLabel": "신고·육성",
+    "school": "인하대",
+    "cellLabel": "인하대",
+    "currentLG": true,
+    "teamLabel": "LG 트윈스",
+    "lgFirst": false,
+    "firstVerified": false,
+    "serving": false,
+    "photo": null,
+    "position": "",
+    "birthday": "",
+    "hand": "",
+    "body": "",
+    "military": "",
+    "draft": "2027년 LG 육성선수 입단",
+    "entryNote": "2027년 육성 입단 명단",
+    "rookieNote": "2026년 9월 28일 육성선수 계약. 이 자료에서는 2027년 입단 명단으로 분류합니다.",
+    "career": "LG 트윈스 육성선수 계약",
+    "draftSource": "https://www.kyungmin.ac.kr/homepage/page.do?m=V&menu=137&no=2026-01797&page=1",
+    "sourceNote": "계약 및 출신 대학: 경민대 2026.09.29 발표. 추가 프로필과 KBO 선수 ID는 확인 후 보완합니다.",
+    "events": [
+      {
+        "date": "2026.09.28",
+        "text": "LG 트윈스 육성선수 계약.",
+        "url": "https://www.kyungmin.ac.kr/homepage/page.do?m=V&menu=137&no=2026-01797&page=1"
+      }
+    ]
   }
 ]
