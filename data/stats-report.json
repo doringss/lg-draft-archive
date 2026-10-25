@@ -1,5 +1,5 @@
 {
-  "retrievedAt": "2026-10-19 06:42 KST",
+  "retrievedAt": "2026-10-26 06:43 KST",
   "scope": "저장된 소속 기준 프로 소속 선수의 KBO 정규시즌 누적 기록",
   "players": [
     {
@@ -361,7 +361,7 @@
       "name": "이주헌",
       "source": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=52154",
       "status": "failed",
-      "reason": "기존 누적 기록 항목 누락"
+      "reason": "누적 경기 감소: 검토 필요"
     },
     {
       "id": "2022-7",
@@ -557,7 +557,7 @@
       "name": "김영우",
       "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55167",
       "status": "failed",
-      "reason": "기존 누적 기록 항목 누락"
+      "reason": "누적 경기 감소: 검토 필요"
     },
     {
       "id": "2025-4",
@@ -595,7 +595,7 @@
       "name": "박시원",
       "source": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=55121",
       "status": "failed",
-      "reason": "기존 누적 기록 항목 누락"
+      "reason": "누적 경기 감소: 검토 필요"
     },
     {
       "id": "2025-10",
