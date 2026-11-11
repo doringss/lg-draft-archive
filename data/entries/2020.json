@@ -321,14 +321,20 @@
     "school": "안산상록초 - 대원중 - 원주고",
     "draft": "2020년 2차 6라운드 (전체 53번, LG ) · 지명 당시 이름 하영진",
     "military": "",
-    "career": "LG 트윈스 (2020~)",
+    "career": "LG 트윈스 (2020~2026)",
     "impact": null,
-    "events": [],
-    "currentLG": true,
-    "teamLabel": "LG 트윈스",
+    "events": [
+      {
+        "date": "2026.10.22",
+        "text": "LG가 다음 시즌 재계약을 하지 않기로 발표.",
+        "url": "https://www.xportsnews.com/article/2210342"
+      }
+    ],
+    "currentLG": false,
+    "teamLabel": "현 소속 미확인",
     "serving": false,
     "firstVerified": true,
-    "cellLabel": "LG",
+    "cellLabel": "",
     "originalNote": "원본 2512: LG 소속 / 출전 표시 없음",
     "photoCredit": "KBO",
     "photoSource": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=50107"

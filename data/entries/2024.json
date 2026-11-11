@@ -124,14 +124,20 @@
     "school": "성동초 - 글로벌선진학교",
     "draft": "2019년 국제 아마추어 자유계약 ( KC ) 2024년 4라운드 (전체 38순위, LG )",
     "military": "상근예비역 병장 소집해제 (2021년 12월 21일 ~ 2023년 6월 20일)",
-    "career": "캔자스시티 로열스 산하 마이너 (2019~2021) → AZL 로열스 (2019~2020) / Rk → ACL 로열스 (2021) / Rk 파주 챌린저스 (2023) LG 트윈스 (2024~)",
+    "career": "캔자스시티 로열스 산하 마이너 (2019~2021) → AZL 로열스 (2019~2020) / Rk → ACL 로열스 (2021) / Rk 파주 챌린저스 (2023) LG 트윈스 (2024~2026)",
     "impact": null,
-    "events": [],
-    "currentLG": true,
-    "teamLabel": "LG 트윈스",
+    "events": [
+      {
+        "date": "2026.10.22",
+        "text": "LG가 다음 시즌 재계약을 하지 않기로 발표.",
+        "url": "https://www.xportsnews.com/article/2210342"
+      }
+    ],
+    "currentLG": false,
+    "teamLabel": "현 소속 미확인",
     "serving": false,
     "firstVerified": true,
-    "cellLabel": "LG",
+    "cellLabel": "",
     "originalNote": "원본 2512: LG 소속 / LG 1군 출전 표시",
     "photoCredit": "KBO",
     "photoSource": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=54148"
@@ -489,14 +495,20 @@
     "school": "광주화정초 - 광주동성중 - 광주동성고 - 강릉영동대",
     "draft": "2024년 육성선수 ( LG )",
     "military": "",
-    "career": "LG 트윈스 (2024~)",
+    "career": "LG 트윈스 (2024~2026)",
     "impact": null,
-    "events": [],
-    "currentLG": true,
-    "teamLabel": "LG 트윈스",
+    "events": [
+      {
+        "date": "2026.10.22",
+        "text": "LG가 다음 시즌 재계약을 하지 않기로 발표.",
+        "url": "https://www.xportsnews.com/article/2210342"
+      }
+    ],
+    "currentLG": false,
+    "teamLabel": "현 소속 미확인",
     "serving": false,
     "firstVerified": true,
-    "cellLabel": "LG",
+    "cellLabel": "",
     "entryNote": "신고·육성선수 입단",
     "draftSource": "https://namu.moe/w/%EC%98%A4%EC%8A%B9%EC%9C%A4%28%EC%95%BC%EA%B5%AC%EC%84%A0%EC%88%98%29",
     "originalNote": "원본 2512: LG 외 소속 / 출전 표시 없음",

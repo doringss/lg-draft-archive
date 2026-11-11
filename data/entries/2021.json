@@ -314,14 +314,20 @@
     "school": "구리초 (구리시리틀) - 인창중 - 라온고",
     "draft": "2021년 2차 6라운드 (전체 57번, LG )",
     "military": "",
-    "career": "LG 트윈스 (2021~)",
+    "career": "LG 트윈스 (2021~2026)",
     "impact": null,
-    "events": [],
-    "currentLG": true,
-    "teamLabel": "LG 트윈스",
+    "events": [
+      {
+        "date": "2026.10.22",
+        "text": "LG가 다음 시즌 재계약을 하지 않기로 발표.",
+        "url": "https://www.xportsnews.com/article/2210342"
+      }
+    ],
+    "currentLG": false,
+    "teamLabel": "현 소속 미확인",
     "serving": false,
     "firstVerified": true,
-    "cellLabel": "LG",
+    "cellLabel": "",
     "originalNote": "원본 2512: LG 소속 / 출전 표시 없음",
     "photoCredit": "KBO",
     "photoSource": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=51104"

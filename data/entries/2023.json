@@ -268,14 +268,20 @@
     "school": "양정초 - 대천중 - 부산고",
     "draft": "2023년 5라운드 (전체 50번, LG )",
     "military": "대한민국 육군 병장 만기전역 (2023년 11월 13일~2025년 5월 12일)",
-    "career": "LG 트윈스 (2023~)",
+    "career": "LG 트윈스 (2023~2026)",
     "impact": null,
-    "events": [],
-    "currentLG": true,
-    "teamLabel": "LG 트윈스",
+    "events": [
+      {
+        "date": "2026.10.22",
+        "text": "LG가 다음 시즌 재계약을 하지 않기로 발표.",
+        "url": "https://www.xportsnews.com/article/2210342"
+      }
+    ],
+    "currentLG": false,
+    "teamLabel": "현 소속 미확인",
     "serving": false,
     "firstVerified": true,
-    "cellLabel": "LG",
+    "cellLabel": "",
     "originalNote": "원본 2512: LG 소속 / 출전 표시 없음",
     "photoCredit": "KBO",
     "photoSource": "https://www.koreabaseball.com/Record/Player/PitcherDetail/Total.aspx?playerId=53100"
@@ -406,14 +412,20 @@
     "school": "중대초 - 자양중 - 신일고 - 동국대",
     "draft": "2023년 8라운드 (전체 77번, LG )",
     "military": "대한민국 육군 병장 만기전역 (2023.10.24~2025.04.23)",
-    "career": "LG 트윈스 (2023~)",
+    "career": "LG 트윈스 (2023~2026)",
     "impact": null,
-    "events": [],
-    "currentLG": true,
-    "teamLabel": "LG 트윈스",
+    "events": [
+      {
+        "date": "2026.10.22",
+        "text": "LG 재계약 종료 및 현역 은퇴 발표.",
+        "url": "https://www.xportsnews.com/article/2210342"
+      }
+    ],
+    "currentLG": false,
+    "teamLabel": "은퇴",
     "serving": false,
     "firstVerified": true,
-    "cellLabel": "LG",
+    "cellLabel": "은퇴",
     "originalNote": "원본 2512: LG 소속 / LG 1군 출전 표시",
     "photoCredit": "KBO",
     "photoSource": "https://www.koreabaseball.com/Record/Player/HitterDetail/Total.aspx?playerId=53105"
